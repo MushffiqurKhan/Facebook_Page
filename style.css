@@ -11,19 +11,22 @@
     font-family: facbook_para;
     src: url(./fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
 }
-.container{
-    border: 2px solid black;
-    height: 100vh;
+body{
+  height: 100vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   background-color: #f0f2f5;
+}
+.container{
+    /* border: 2px solid black; */
+   display: flex;
 
 }
 .box_1{
-    height: 300px;
-    width: 30%;
+   
+    width: 50%;
     /* border: 2px solid firebrick; */
 }
 h2{
@@ -39,8 +42,10 @@ p{
 }
 .box_2{
     width: 30%;
-  
+  width: 50%;
+    /* border: 2px solid firebrick; */
 }
+
 form{
     width: 100%;
     display: flex;
@@ -158,9 +163,34 @@ form p{
 }
 
 
-@media (width<830px) {
+@media (width<895px) {
+  body {
+    display: flex;
+    flex-direction: column; 
+    overflow-y: scroll;
+    padding-bottom: 0; 
+    min-height: 100vh;
+  }
     .container{
+      flex: 1;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        /* border: solid black; */
+        margin-top: 10px;
+        min-width: 50%;
+        gap: 20px;
+        margin-bottom: 20px;
+      
     }
+    .box_1 ,.box_2{
+      flex-wrap: wrap;
+      width: 60%;
+    }
+    .fb-footer {
+      margin-top: auto;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
 }
