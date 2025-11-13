@@ -20,9 +20,10 @@ body{
   background-color: #f0f2f5;
 }
 .container{
-    /* border: 2px solid black; */
+    /* border:  solid black; */
    display: flex;
-
+  min-width: 50%;
+  margin-bottom: 40px;
 }
 .box_1{
    
@@ -41,7 +42,6 @@ p{
     font-weight: 430;
 }
 .box_2{
-    width: 30%;
   width: 50%;
     /* border: 2px solid firebrick; */
 }
@@ -100,7 +100,7 @@ form p{
     margin-top: 20px;
     font-size: 15px;
 }
-/* Footer */
+
 .fb-footer {
   width: 100%;
   background-color: white;
@@ -113,7 +113,7 @@ form p{
   left: 0;
 }
 
-/* Language section */
+
 .fb-footer .languages {
   display: flex;
   justify-content: center;
@@ -131,7 +131,7 @@ form p{
   text-decoration: underline;
 }
 
-/* Plus button */
+
 .fb-footer button {
   border: 1px solid #ccc;
   background-color: #f0f2f5;
@@ -145,7 +145,6 @@ form p{
   background-color: #e4e6eb;
 }
 
-/* Divider line */
 .fb-footer hr {
   border: none;
   border-top: 1px solid #ddd;
@@ -153,7 +152,7 @@ form p{
   margin: 10px auto;
 }
 
-/* Links section */
+
 .fb-footer .footer-links {
   display: flex;
   justify-content: center;
@@ -172,29 +171,30 @@ form p{
     overflow: scroll;
     margin: 0;
     padding: 0;
-    max-height: 100vh;
+
   }
     .container{
       flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* border: solid black; */
-        margin-top: 10px;
-        min-width: 50%;
-        gap: 10px;
+        gap: 30px;
         margin-bottom: 20px;
-      
+         margin-top: 120px;
+      /* border: solid salmon; */
+      width:80%;
     }
     .box_1 ,.box_2{
-      flex-wrap: wrap;
-      width: 60%;
-      margin-top: 50px;
+      /* flex-wrap: wrap; */
+      width: 100%;
+      /* border: solid rgb(218, 22, 0); */
+
+     
+
     }
-    .fb-footer {
-      margin-top: auto;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-  }
+  .fb-footer {
+        margin-top: auto;
+        position: relative; 
+        width: 100%;
+    }
 }
