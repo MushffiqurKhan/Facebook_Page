@@ -169,7 +169,7 @@ form p{
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    overflow: scroll;
     margin: 0;
     padding: 0;
     max-height: 100vh;
@@ -189,7 +189,7 @@ form p{
     .box_1 ,.box_2{
       flex-wrap: wrap;
       width: 60%;
-      margin-top: 60px;
+      margin-top: 50px;
     }
     .fb-footer {
       margin-top: auto;
