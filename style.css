@@ -84,7 +84,7 @@ form p{
     font-size: 15px;
 }
 #Create_btn{
-    width: 60%;
+    
     border: none;
     background-color: rgb(64, 174, 64);
     color: white;
@@ -182,7 +182,7 @@ form p{
         /* border: solid black; */
         margin-top: 10px;
         min-width: 50%;
-        gap: 20px;
+        gap: 10px;
         margin-bottom: 20px;
       
     }
