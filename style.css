@@ -163,7 +163,7 @@ form p{
 }
 
 
-@media (width<895px) {
+@media (width<912px) {
   body {
     display: flex;
     flex-direction: column; 
